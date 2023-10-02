@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #FF3366;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the main content */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the lyrics section */
+.lyrics {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 10px;
+    background-color: #ffb6c1; /* lightpink color for Zayn's lines */
+}
+
+/* Style individual singer's lines */
+.zayn {
+    color: #FF3366; /* Reddish color for Zayn's lines */
+    font-style: italic;
+    font-weight: bold; /* Yelling effect */
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.liam {
+    color: #008b8b; /* darkcyan color for Liam's lines */
+    font-weight: bold; /* Normal font weight */
+    font-family: 'MonteCarlo', cursive;
+}
+
+.harry {
+    color: darkblue; /* darkOrange color for Harry's lines */
+    font-size: 30px; /* Larger font size for emphasis */
+    text-align: right;
+    font-family: 'Caveat', cursive;
+}
+
+.louis {
+    color: #8b0008; /* darkred color for Louis's lines */
+    font-style: italic; /* Italics for a sad effect */
+}
+
+.niall {
+    color: #940094; /* darkviolet color for Niall's lines */
+    text-transform: uppercase; /* Uppercase for emphasis */
+}
+
+.s {
+    color: black;
+    font-size: x-large;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+p:hover{
+    transition: 0.5s;
+    padding: 30px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
